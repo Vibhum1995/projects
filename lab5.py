@@ -1,5 +1,4 @@
-# Name: Vibhum Chandorkar (vich1161@colorado.edu)
-# Objective: LAb5 Objective (a,b,c,d,e)
+
 # Version: 3.7
 
 from netmiko import ConnectHandler
