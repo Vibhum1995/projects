@@ -1,6 +1,5 @@
-# Author : Vibhum Chandorkar (vich1161@colorado.edu)
-# Name : Lab 2
-# Purpose : obj 5.4
+
+
 # Date : 2/4/2019
 # Version : 3
 
