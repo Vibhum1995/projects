@@ -31,8 +31,8 @@ while True:
         ids.append(instance.id)
 
     # Removing the ID of two orginially created instances
-    ids.remove('i-06cf88d26bea831fd')
-    ids.remove('i-0b12e7b18a20101bf')
+    ids.remove('i-xxxx')
+    ids.remove('i-xxxx')
 
     id = []
 
@@ -75,9 +75,9 @@ while True:
 
             # Emailing the admin
             msg = 'Instance with the ID ' + str(idss) + ' has been terminated and a new instance will be created'
-            fromaddr = 'vibhumchandorkar@gmail.com'
-            toaddr = 'vich1161@colorado.edu'
-            username = 'vibhumchandorkar@gmail.com'
+            fromaddr = 'xxxxx'
+            toaddr = 'xxxxx'
+            username = 'xxxxx@gmail.com'
             password = 'xxxx'
             server = smtplib.SMTP('smtp.gmail.com:587')
             server.starttls()
@@ -92,7 +92,7 @@ while True:
             time.sleep(300)
 
             # Creating a new Instance
-            ec2.create_instances(ImageId='ami-0ad16744583f21877', MinCount=1, MaxCount=1)
+            ec2.create_instances(ImageId='ami-xxxxx', MinCount=1, MaxCount=1)
             time.sleep(300)
 
             print('The Instance with ID ' + str(idss) + ' has been terminated')
