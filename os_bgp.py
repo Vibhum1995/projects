@@ -7,7 +7,7 @@ from rich import print as rprint
 from scrapli.driver.core import IOSXEDriver
 
 """
-Find the version and the BGP neighbors of a device
+Find the version and the number of BGP neighbors for a device
 First we make a connection using scrapli
 parse the response to find version and number of neighbors and store them in a list
 """
