@@ -15,8 +15,8 @@ final_list = []
 
 # Creating a session
 session = Session(
-    aws_access_key_id='AKIAIC2M5QDSYPHAN2LQ',
-    aws_secret_access_key='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',
+    aws_access_key_id='*****',
+    aws_secret_access_key='****',
     region_name='us-west-1')
 
 # Creating CloudWatch and EC2 session
