@@ -15,7 +15,7 @@ parse the response to find version and number of neighbors and store them in a l
 my_device = {
     "host": "sandbox-iosxe-latest-1.cisco.com",
     "auth_username": "developer",
-    "auth_password": "C1sco12345",
+    "auth_password": "****",
     "auth_strict_key": False,
 }
 
