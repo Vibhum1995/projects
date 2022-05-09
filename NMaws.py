@@ -1,5 +1,4 @@
-# Author : Vibhum Chandorkar (vich1161@colorado.edu)
-# Name : lab 4 ( Obj-3)
+
 # Purpose : AWS
 # Date : 02/24/2019
 # Version : 3.0
@@ -22,9 +21,7 @@ def s3Bucket(bucket_name):
     s3 = session.client('s3')
     s3_resource = session.resource('s3')
 
-    # Creating S3 Bucket
-    #s3.create_bucket(Bucket='netman-lab5-vich1161', CreateBucketConfiguration={'LocationConstraint': 'us-west-1'})
-
+ 
     # Creating a time stamp and adding to the filename
     time_stamp = datetime.datetime.now()
     print(time_stamp)
