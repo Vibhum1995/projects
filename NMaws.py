@@ -14,8 +14,8 @@ from prettytable import PrettyTable
 def s3Bucket(bucket_name):
     # Creating a AWS session
     session = Session(
-        aws_access_key_id='AKIAJWTEBOADJQ7AN2SQ',
-        aws_secret_access_key='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',
+        aws_access_key_id='*****',
+        aws_secret_access_key='*****',
         region_name='us-west-1')
 
     # Connecting to S3
